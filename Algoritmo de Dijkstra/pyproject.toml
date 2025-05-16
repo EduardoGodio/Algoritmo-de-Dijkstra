@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dijkstra-algorithm"
+version = "0.1.0"
+description = "Aplicação do algoritmo de Dijkstra em Python"
+authors = ["Robert Lopes Terra <contatorobertlopes@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.11.4"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+python-multipart = "^0.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
